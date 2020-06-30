@@ -22,7 +22,7 @@ h1{
     padding-top: 5%;
 }
 .half-width2 img{
-    width: 100%;
+    width: 100%; 
 }
 .top-banner{
     background-image: url("top-banner.png");
@@ -35,21 +35,19 @@ section{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 25px;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
-    font-weight: 700;
+    font-weight: 700px;
 }
-
-/*
 .half-width3{
-    width: 30%;
+    width: 40%;
     float: left;
     margin: 5%;
     padding-left: 2%;
-    padding-top: 10%;
 }
 .half-width3 img{
     width: 100%;
+    height: 100%;
 }
 .half-width4{
     width: 40%;
@@ -57,5 +55,11 @@ section{
     margin: 5%;
     padding-left: 2%;
 }
-*/
 
+
+            <div class="half-width3">
+                <h1>Dream Big</h1>
+                <h3>Become a web developer</h3>
+
+                <p>I already learned the basic HTML and CSS. I can build any simple website. I can even teach my grandma how to make simple website. My goal is to build 3 websites and learn advanced topics.</p>
+            </div>
