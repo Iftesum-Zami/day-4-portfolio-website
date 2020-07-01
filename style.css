@@ -5,23 +5,22 @@ body{
 h1{
     font-size: 50px;
 }
-.name1{
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
-    width: 35%;
+    width: 37%;
     float: left;
     margin: 5%;
     padding-left: 2%;
 }
-.half-width2{
-    width: 40%;
-    float: left;
-    margin: 5%;
-    padding-left: 2%;
-    padding-top: 5%;
-}
-.half-width2 img{
+.half-width img{
     width: 100%;
 }
 .top-banner{
@@ -30,6 +29,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .button1{
     text-decoration: none;
@@ -39,16 +39,44 @@ section{
     color: white;
     font-weight: 700;
 }
-
+.dream-area{
+    background-image: url("dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 85%;
+}
+.experience-area{
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
 /*
 .half-width3{
-    width: 30%;
+    width: 40%;
     float: left;
     margin: 5%;
     padding-left: 2%;
-    padding-top: 10%;
 }
 .half-width3 img{
+    height: 100%;
     width: 100%;
 }
 .half-width4{
@@ -57,5 +85,27 @@ section{
     margin: 5%;
     padding-left: 2%;
 }
+
+    <section>
+        <div class="half-width">
+            <img src="profile2.jpg" alt="">
+        </div>
+    </section>
+
+<section>
+        <h2>Experience</h2>
+        <div class="half-width">
+            <h2>Full Stack Web Developer</h2>
+            <h3 class="name1">2020-Present | Pro Level Developer</h3>
+            <p>I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
+        </div>
+
+        <div>
+            <h2>Baby Web Developer</h2>
+            <h3 class="half-width">2019-2020 | Programming Hero Learner</h3>
+            <p>They didn't offer me a job. But I made myself as a remove web developer. I made their website and showed it to them. They liked it. And uploaded the content. It was fun working at Programming Hero.</p>
+        </div>
+
+    </section>
 */
 
